@@ -11,7 +11,7 @@ import './styles/mainpage.css';
 function App() {
   return (
     <div className="">
-      <BrowserRouter basename={window.location.pathname || ''}>
+      <HashRouter>
         <NavBar/>
 
         <Routes>
@@ -19,7 +19,7 @@ function App() {
           <Route path='/about' element={<About/>}/>
           // <Route path='/Resume' element={<Resume/>}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
