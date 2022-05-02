@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Merriweather';
+  src: local('Merriweather'), url('../assets/fonts/Merriweather-Black.ttf');
+}
+
+body {
+  color: #0B3948;
+  background-color: #D9DBF1;
+  font-family: 'Merriweather';
+}

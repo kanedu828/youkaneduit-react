@@ -1,5 +1,6 @@
 {
   "name": "youkaneduit",
+  "homepage": "https://kanedu828.github.io/youkaneduit-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,13 +11,18 @@
     "@types/node": "^16.11.32",
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.3",
+    "gh-pages": "^3.2.3",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-vertical-timeline-component": "^3.5.2",
     "typescript": "^4.6.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-vertical-timeline-component": "^3.3.3"
   }
 }

@@ -1,0 +1,35 @@
+.large-header {
+  font-size: 18rem;
+}
+
+.medium-header {
+  font-size: 3rem;
+}
+
+.small-header {
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  font-size: 1.5rem;
+  color: #416165;
+}
+
+.fade-in{
+  animation: fadein 2s;
+}
+
+@keyframes fadein
+{
+
+  from{ opacity: 0; }
+  to { opacity: 1; }
+
+}
