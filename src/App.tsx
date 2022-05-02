@@ -11,7 +11,7 @@ import './styles/mainpage.css';
 function App() {
   return (
     <div className="">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename='/directory-name'>
         <NavBar/>
 
         <Routes>
