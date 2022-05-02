@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ad344f7.css",
-    "main.js": "/static/js/main.4b4d6e95.js",
-    "static/js/787.e000a321.chunk.js": "/static/js/787.e000a321.chunk.js",
-    "static/media/about_drawing.png": "/static/media/about_drawing.1868389eb387497f54ba.png",
-    "static/media/Merriweather-Black.ttf": "/static/media/Merriweather-Black.cfe2aa3843d8cb416e1a.ttf",
-    "static/media/uga_logo.jpg": "/static/media/uga_logo.0374377491201d9d1be8.jpg",
-    "static/media/aflac_logo.png": "/static/media/aflac_logo.86131f282a413527dccf.png",
-    "static/media/gt_logo.jpg": "/static/media/gt_logo.ee95bb5de96f23351454.jpg",
-    "static/media/amazon_logo.jpg": "/static/media/amazon_logo.7203759d52a1f545fce5.jpg",
-    "index.html": "/index.html",
-    "main.9ad344f7.css.map": "/static/css/main.9ad344f7.css.map",
-    "main.4b4d6e95.js.map": "/static/js/main.4b4d6e95.js.map",
-    "787.e000a321.chunk.js.map": "/static/js/787.e000a321.chunk.js.map"
+    "main.css": "/youkaneduit-react/static/css/main.715bad44.css",
+    "main.js": "/youkaneduit-react/static/js/main.17cdf6ca.js",
+    "static/js/787.e000a321.chunk.js": "/youkaneduit-react/static/js/787.e000a321.chunk.js",
+    "static/media/about_drawing.png": "/youkaneduit-react/static/media/about_drawing.1868389eb387497f54ba.png",
+    "static/media/Merriweather-Black.ttf": "/youkaneduit-react/static/media/Merriweather-Black.cfe2aa3843d8cb416e1a.ttf",
+    "static/media/uga_logo.jpg": "/youkaneduit-react/static/media/uga_logo.0374377491201d9d1be8.jpg",
+    "static/media/aflac_logo.png": "/youkaneduit-react/static/media/aflac_logo.86131f282a413527dccf.png",
+    "static/media/gt_logo.jpg": "/youkaneduit-react/static/media/gt_logo.ee95bb5de96f23351454.jpg",
+    "static/media/amazon_logo.jpg": "/youkaneduit-react/static/media/amazon_logo.7203759d52a1f545fce5.jpg",
+    "index.html": "/youkaneduit-react/index.html",
+    "main.715bad44.css.map": "/youkaneduit-react/static/css/main.715bad44.css.map",
+    "main.17cdf6ca.js.map": "/youkaneduit-react/static/js/main.17cdf6ca.js.map",
+    "787.e000a321.chunk.js.map": "/youkaneduit-react/static/js/787.e000a321.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ad344f7.css",
-    "static/js/main.4b4d6e95.js"
+    "static/css/main.715bad44.css",
+    "static/js/main.17cdf6ca.js"
   ]
 }
