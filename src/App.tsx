@@ -11,7 +11,7 @@ import './styles/mainpage.css';
 function App() {
   return (
     <div className="">
-      <BrowserRouter basename='/directory-name'>
+      <BrowserRouter basename={window.location.pathname || ''}>
         <NavBar/>
 
         <Routes>
