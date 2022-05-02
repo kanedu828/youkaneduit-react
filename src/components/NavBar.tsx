@@ -10,7 +10,7 @@ function NavBar(props: Props) {
     <div className='nav-bar-container'>
     <NavLink className={({ isActive }) => isActive ? 'nav-bar-link active-button' : 'nav-bar-link'} to='/'>Home</NavLink>
     <NavLink className={({ isActive }) => isActive ? 'nav-bar-link active-button' : 'nav-bar-link'} to='/about'>About Me</NavLink>
-    <NavLink className={({ isActive }) => isActive ? 'nav-bar-link active-button' : 'nav-bar-link'} to='/resume'>Resume</NavLink>
+    // <NavLink className={({ isActive }) => isActive ? 'nav-bar-link active-button' : 'nav-bar-link'} to='/resume'>Resume</NavLink>
     </div>
   );
 }
