@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/youkaneduit-react/static/css/main.715bad44.css",
-    "main.js": "/youkaneduit-react/static/js/main.b1b7016f.js",
+    "main.js": "/youkaneduit-react/static/js/main.d02c0490.js",
     "static/js/787.e000a321.chunk.js": "/youkaneduit-react/static/js/787.e000a321.chunk.js",
     "static/media/about_drawing.png": "/youkaneduit-react/static/media/about_drawing.1868389eb387497f54ba.png",
     "static/media/Merriweather-Black.ttf": "/youkaneduit-react/static/media/Merriweather-Black.cfe2aa3843d8cb416e1a.ttf",
@@ -11,11 +11,11 @@
     "static/media/amazon_logo.jpg": "/youkaneduit-react/static/media/amazon_logo.7203759d52a1f545fce5.jpg",
     "index.html": "/youkaneduit-react/index.html",
     "main.715bad44.css.map": "/youkaneduit-react/static/css/main.715bad44.css.map",
-    "main.b1b7016f.js.map": "/youkaneduit-react/static/js/main.b1b7016f.js.map",
+    "main.d02c0490.js.map": "/youkaneduit-react/static/js/main.d02c0490.js.map",
     "787.e000a321.chunk.js.map": "/youkaneduit-react/static/js/787.e000a321.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.715bad44.css",
-    "static/js/main.b1b7016f.js"
+    "static/js/main.d02c0490.js"
   ]
 }
