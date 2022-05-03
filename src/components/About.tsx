@@ -6,6 +6,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 
 function About() {
+  document.title = 'About';
   return (
     <div className='container'>
       <img className='about-image' src={require('../assets/images/about_drawing.png')}/>
