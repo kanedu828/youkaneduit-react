@@ -3,7 +3,6 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import '../styles/about.css';
 import '../styles/shared.css';
 import 'react-vertical-timeline-component/style.min.css';
-import gtLogo from '../assets/images/gt_logo.jpg';
 
 
 function About() {
