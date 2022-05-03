@@ -4,7 +4,7 @@ import '../styles/shared.css';
 
 function Home() {
   return (
-    <div className='container'>
+    <div className='container screen-center'>
       <h1 className='large-header fade-in'>Website.</h1>
     </div>
   );
