@@ -1,7 +1,7 @@
 import React from 'react';
 import  { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 
-import About from './components/About';
+import Timeline from './components/Timeline';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 import Resume from './components/Resume';
@@ -16,7 +16,7 @@ function App() {
 
         <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/about' element={<About/>}/>
+          <Route path='/timeline' element={<Timeline/>}/>
           // <Route path='/Resume' element={<Resume/>}/>
         </Routes>
       </HashRouter>

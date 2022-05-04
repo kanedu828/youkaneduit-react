@@ -1,19 +1,15 @@
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 
-import '../styles/about.css';
+import '../styles/timeline.css';
 import '../styles/shared.css';
 import 'react-vertical-timeline-component/style.min.css';
 
 
-function About() {
-  document.title = 'About';
+function Timeline() {
+  document.title = 'Timeline';
   return (
-    <div className='container'>
-      <img className='about-image' src={require('../assets/images/about_drawing.png')}/>
-      <h1 className='medium-header'>About Me</h1>
-      <div className='content'>
-        Georgia Tech '22. Computer Science. Intelligence + Media
-      </div>
+    <div className='container-col center'>
+      <h1 className='large-header'>My Timeline</h1>
       <div className='timeline-container'>
         <div className='box-fill'>  </div>
         <VerticalTimeline
@@ -127,4 +123,4 @@ function About() {
   );
 }
 
-export default About;
+export default Timeline;

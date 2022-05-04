@@ -19,15 +19,34 @@
 }
 
 .active-button {
-  background-color: #ACB0BD;
-  animation: fade-in 600ms;
+  border: 2px solid;
 }
 
-@keyframes fade-in {
-  from {
-    background-color: fade(#ACB0BD, 0%);
-  }
-  to {
-    background-color: #ACB0BD;
-  }
+@keyframes animated-border {
+  0% {
+        width: 0;
+        height: 0;
+        border-top-color: black;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+
+    50% {
+        width: 100%;
+        height: 0;
+        border-top-color: black;
+        border-right-color: black;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+
+    100% {
+        width: 100%;
+        height: 100%;
+        border-top-color: black;
+        border-right-color: black;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
 }

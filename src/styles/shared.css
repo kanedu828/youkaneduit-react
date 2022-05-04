@@ -1,9 +1,38 @@
 .large-header {
-  font-size: 18rem;
+  font-size: 6rem;
+  padding: 0px;
+  margin: 0px;
 }
 
 .medium-header {
   font-size: 3rem;
+  padding: 0px;
+  margin: 0px;
+}
+
+.small-header {
+  font-size: 2rem;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
 }
 
 .screen-center {
@@ -11,17 +40,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.small-header {
-  font-size: 2rem;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .content {
