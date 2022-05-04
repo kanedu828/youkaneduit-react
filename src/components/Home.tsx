@@ -13,7 +13,7 @@ function Home() {
       <div className='container-col fade-in'>
         <h1 className='large-header'>About Me</h1>
         <p className='about-container content'>
-          Hello! I am a 5th year Computer Science major at
+          Hello! I am a 4th year Computer Science major at
           Georgia Tech. My concetrations are in intelligence and media.
           I will be graduating in December 2022.
           You can take a look at my coursework and internships in the timeline section.

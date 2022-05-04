@@ -62,7 +62,7 @@ function Timeline() {
             contentArrowStyle={{'borderRight': '7px solid #F8F5F0'}}
           >
             <h4> My Summer Internship: </h4>
-            Interned at Amazon with the AWS Coridite team! Battled with a lot of the internal tooling
+            Interned at Amazon with the AWS Cordite team! Battled with a lot of the internal tooling
              and learning the AWS suite, but I ultimately learned a lot.
           </VerticalTimelineElement>
           <VerticalTimelineElement
