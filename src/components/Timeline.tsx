@@ -106,6 +106,54 @@ function Timeline() {
             My first internship was at Aflac. I first learned about the development pipeline here.
             Learning about how environments are setup, best practicies, and AGILE development has
             been very important for me.
+
+            <h4> My Summer Classes: </h4>
+            Computing Ethics and Society
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date='Spring 2020'
+            icon={<img className='icon' src={require('../assets/images/uga_logo.jpg')}/>}
+            contentStyle={{'backgroundColor': '#F8F5F0'}}
+            contentArrowStyle={{'borderRight': '7px solid #F8F5F0'}}
+          >
+            <h4> My Spring Semester Classes: </h4>
+            Data Structures <br/>
+            Computer Architecture <br/>
+            Multivariable Calculus <br/>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date='Fall 2019'
+            icon={<img className='icon' src={require('../assets/images/uga_logo.jpg')}/>}
+            contentStyle={{'backgroundColor': '#F8F5F0'}}
+            contentArrowStyle={{'borderRight': '7px solid #F8F5F0'}}
+          >
+            <h4> My Fall Semester Classes: </h4>
+            Systems Programming <br/>
+            Differential Equations <br/>
+            Linear Algebra <br/>
+            Honors American Government <br/>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date='Summer 2019'
+            icon={<img className='icon' src={require('../assets/images/ksu_logo.png')}/>}
+            contentStyle={{'backgroundColor': '#F8F5F0'}}
+            contentArrowStyle={{'borderRight': '7px solid #F8F5F0'}}
+          >
+            Took a class as a transient student at Kennesaw State University!
+            <h4> My Summer Semester Classes: </h4>
+            English Compisition II
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date='Spring 2019'
+            icon={<img className='icon' src={require('../assets/images/uga_logo.jpg')}/>}
+            contentStyle={{'backgroundColor': '#F8F5F0'}}
+            contentArrowStyle={{'borderRight': '7px solid #F8F5F0'}}
+          >
+            <h4> My Spring Semester Classes: </h4>
+            Honors Biology <br/>
+            Software Development <br/>
+            Intro the the Theory of Computing <br/>
+            English Composition
           </VerticalTimelineElement>
           <VerticalTimelineElement
             date='Fall 2018'
@@ -115,6 +163,11 @@ function Timeline() {
           >
             <h4> College! </h4>
             Started my education at The University of Georgia... Go Dawgs!
+            <h4> My Fall Semester Classes: </h4>
+            Astronomy of the Solar System <br/>
+            Intro to Programming <br/>
+            Discrete Math <br/>
+            Intro to Cinema <br/>
           </VerticalTimelineElement>
         </VerticalTimeline>
         <div className='box-fill'>  </div>
