@@ -3,7 +3,7 @@
   src: local('Merriweather'), url('../assets/fonts/Merriweather-Black.ttf');
 }
 
-body {
+body, input, textarea, button {
   color: #0B3948;
   background-color: #FAFAFA;
   font-family: 'Merriweather';

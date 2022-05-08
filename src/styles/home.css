@@ -22,3 +22,35 @@
 .about-container {
   max-width: 40vw;
 }
+
+.main-button {
+  font-size: 1.5em;
+  background-color: #D9DBF1;
+  border: none;
+  border-radius: 40px;
+  padding: 15px;
+  width: 30%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  border: 1px solid transparent;
+  text-decoration: none;
+  text-align: center;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: #E2E3F1;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.main-button:hover {
+  transform: translateY(-1px);
+}
+
+.main-button:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-button:visited {
+  color: inherit;
+}
