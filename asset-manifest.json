@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fdd75989.css",
-    "main.js": "/static/js/main.2b775823.js",
+    "main.css": "/static/css/main.290fad4f.css",
+    "main.js": "/static/js/main.f8be7c89.js",
     "static/js/787.e000a321.chunk.js": "/static/js/787.e000a321.chunk.js",
     "static/media/about_drawing.png": "/static/media/about_drawing.1868389eb387497f54ba.png",
     "static/media/ksu_logo.png": "/static/media/ksu_logo.07100680d5d754962586.png",
@@ -11,12 +11,12 @@
     "static/media/gt_logo.jpg": "/static/media/gt_logo.ee95bb5de96f23351454.jpg",
     "static/media/amazon_logo.jpg": "/static/media/amazon_logo.7203759d52a1f545fce5.jpg",
     "index.html": "/index.html",
-    "main.fdd75989.css.map": "/static/css/main.fdd75989.css.map",
-    "main.2b775823.js.map": "/static/js/main.2b775823.js.map",
+    "main.290fad4f.css.map": "/static/css/main.290fad4f.css.map",
+    "main.f8be7c89.js.map": "/static/js/main.f8be7c89.js.map",
     "787.e000a321.chunk.js.map": "/static/js/787.e000a321.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdd75989.css",
-    "static/js/main.2b775823.js"
+    "static/css/main.290fad4f.css",
+    "static/js/main.f8be7c89.js"
   ]
 }
