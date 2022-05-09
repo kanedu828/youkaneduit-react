@@ -13,7 +13,7 @@ function Timeline() {
       <div className='timeline-container'>
         <div className='box-fill'>  </div>
         <VerticalTimeline
-          lineColor='#416165'
+          lineColor='#0B3948'
         >
           <VerticalTimelineElement
             date='Summer 2022'
