@@ -1,7 +1,7 @@
 .icon {
   border-radius: 100px;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
 }
 
 .timeline-container {
@@ -12,9 +12,16 @@
   width: 100%;
 }
 
-.box-fill {
-  align-self: center;
-  width: 30px;
-  min-height: 30px;
-  background-color: #416165;
+@media screen and (min-width:1170px) {
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .box-fill {
+    align-self: center;
+    width: 30px;
+    min-height: 30px;
+    background-color: #416165;
+  }
 }

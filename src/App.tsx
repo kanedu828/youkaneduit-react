@@ -10,10 +10,9 @@ import './styles/mainpage.css';
 
 function App() {
   return (
-    <div className="">
+    <div>
       <HashRouter>
         <NavBar/>
-
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/timeline' element={<Timeline/>}/>

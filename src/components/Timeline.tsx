@@ -24,6 +24,7 @@ function Timeline() {
             <h4> My Summer Internship: </h4>
             I will be interning at Doordash in Seattle (it's actually remote 😔)!
             I'll be working with the Storefront team, where Doordash powers restaurant online ordering software.
+            <br/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             date='Spring 2022'
@@ -38,7 +39,7 @@ function Timeline() {
             <br/>
             Algorithms
             <br/>
-            Junior Design (Second Semester)
+            Junior Design (Second Semester) <br/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             date='Fall 2021'
@@ -53,7 +54,7 @@ function Timeline() {
             <br/>
             Computer Graphics
             <br/>
-            Junior Design (First Semester)
+            Junior Design (First Semester) <br/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             date='Summer 2021'
@@ -63,7 +64,7 @@ function Timeline() {
           >
             <h4> My Summer Internship: </h4>
             Interned at Amazon with the AWS Cordite team! Battled with a lot of the internal tooling
-             and learning the AWS suite, but I ultimately learned a lot.
+             and learning the AWS suite, but I ultimately learned a lot. <br/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             date='Spring 2021'
@@ -78,7 +79,7 @@ function Timeline() {
             <br/>
             Physics II
             <br/>
-            Blockchain & Cryptocurrencies
+            Blockchain & Cryptocurrencies <br/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             date='Fall 2020'
@@ -94,7 +95,7 @@ function Timeline() {
             <br/>
             Combinatorics
             <br/>
-            Linear Algebra II
+            Linear Algebra II <br/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             date='Summer 2020'
@@ -108,7 +109,7 @@ function Timeline() {
             been very important for me.
 
             <h4> My Summer Classes: </h4>
-            Computing Ethics and Society
+            Computing Ethics and Society <br/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             date='Spring 2020'
@@ -141,7 +142,7 @@ function Timeline() {
           >
             Took a class as a transient student at Kennesaw State University!
             <h4> My Summer Semester Classes: </h4>
-            English Compisition II
+            English Compisition II <br/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             date='Spring 2019'
@@ -153,7 +154,7 @@ function Timeline() {
             Honors Biology <br/>
             Software Development <br/>
             Intro the the Theory of Computing <br/>
-            English Composition
+            English Composition <br/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             date='Fall 2018'

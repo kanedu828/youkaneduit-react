@@ -1,35 +1,31 @@
 .about-image {
-  width: 30%;
-  height: 30%;
+  width: 70%;
+  height: 70%;
+  margin: 20px;
 }
 
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   align-items: center;
   justify-content: space-evenly;
   width: 100vw;
-}
-
-.container-mobile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 100vw;
+  text-align: center;
 }
 
 .about-container {
-  max-width: 40vw;
+  margin: 25px;
 }
 
 .main-button {
+  margin: auto;
+  margin-bottom: 50px;
   font-size: 1.5em;
   background-color: #D9DBF1;
   border: none;
   border-radius: 40px;
   padding: 15px;
-  width: 30%;
+  width: 50%;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
   border: 1px solid transparent;
   text-decoration: none;
@@ -53,4 +49,27 @@
 
 .main-button:visited {
   color: inherit;
+}
+
+@media screen and (min-width:1080px) {
+  .about-image {
+    width: 30%;
+    height: 30%;
+  }
+
+  .container {
+    flex-direction: row;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .about-container {
+    max-width: 40vw;
+  }
+
+  .main-button {
+    width: 30%;
+  }
 }
