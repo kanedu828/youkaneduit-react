@@ -7,6 +7,8 @@ import 'react-vertical-timeline-component/style.min.css';
 
 function Timeline() {
   document.title = 'Timeline';
+  const contentStyle = {'backgroundColor': '#F8F5F0'};
+  const contentArrowStyle = {'borderRight': '7px solid #F8F5F0'};
   return (
     <div className='container-col center'>
       <h1 className='large-header'>My Timeline</h1>
@@ -18,8 +20,8 @@ function Timeline() {
           <VerticalTimelineElement
             date='Summer 2022'
             icon={<img className='icon' src={require('../assets/images/doordash_logo.png')}/>}
-            contentStyle={{'backgroundColor': '#F8F5F0'}}
-            contentArrowStyle={{'borderRight': '7px solid #F8F5F0'}}
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
           >
             <h4> My Summer Internship: </h4>
             I will be interning at Doordash in Seattle (it's actually remote 😔)!
@@ -29,8 +31,8 @@ function Timeline() {
           <VerticalTimelineElement
             date='Spring 2022'
             icon={<img className='icon' src={require('../assets/images/gt_logo.jpg')}/>}
-            contentStyle={{'backgroundColor': '#F8F5F0'}}
-            contentArrowStyle={{'borderRight': '7px solid #F8F5F0'}}
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
           >
             <h4> My Spring Semester Classes: </h4>
             Computer Vision
@@ -44,8 +46,8 @@ function Timeline() {
           <VerticalTimelineElement
             date='Fall 2021'
             icon={<img className='icon' src={require('../assets/images/gt_logo.jpg')}/>}
-            contentStyle={{'backgroundColor': '#F8F5F0'}}
-            contentArrowStyle={{'borderRight': '7px solid #F8F5F0'}}
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
           >
             <h4> My Fall Semester Classes: </h4>
             Probability & Statistics
@@ -59,8 +61,8 @@ function Timeline() {
           <VerticalTimelineElement
             date='Summer 2021'
             icon={<img className='icon' src={require('../assets/images/amazon_logo.jpg')}/>}
-            contentStyle={{'backgroundColor': '#F8F5F0'}}
-            contentArrowStyle={{'borderRight': '7px solid #F8F5F0'}}
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
           >
             <h4> My Summer Internship: </h4>
             Interned at Amazon with the AWS Cordite team! Battled with a lot of the internal tooling
@@ -69,8 +71,8 @@ function Timeline() {
           <VerticalTimelineElement
             date='Spring 2021'
             icon={<img className='icon' src={require('../assets/images/gt_logo.jpg')}/>}
-            contentStyle={{'backgroundColor': '#F8F5F0'}}
-            contentArrowStyle={{'borderRight': '7px solid #F8F5F0'}}
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
           >
             <h4> My Spring Semester Classes: </h4>
             Intro to Artificial Intelligence
@@ -84,8 +86,8 @@ function Timeline() {
           <VerticalTimelineElement
             date='Fall 2020'
             icon={<img className='icon' src={require('../assets/images/gt_logo.jpg')}/>}
-            contentStyle={{'backgroundColor': '#F8F5F0'}}
-            contentArrowStyle={{'borderRight': '7px solid #F8F5F0'}}
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
           >
             This is my first semester at Georgia Tech!
             <h4> My Fall Semester Classes: </h4>
@@ -100,8 +102,8 @@ function Timeline() {
           <VerticalTimelineElement
             date='Summer 2020'
             icon={<img className='icon' src={require('../assets/images/aflac_logo.png')}/>}
-            contentStyle={{'backgroundColor': '#F8F5F0'}}
-            contentArrowStyle={{'borderRight': '7px solid #F8F5F0'}}
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
           >
             <h4> My Summer Internship: </h4>
             My first internship was at Aflac. I first learned about the development pipeline here.
@@ -114,8 +116,8 @@ function Timeline() {
           <VerticalTimelineElement
             date='Spring 2020'
             icon={<img className='icon' src={require('../assets/images/uga_logo.jpg')}/>}
-            contentStyle={{'backgroundColor': '#F8F5F0'}}
-            contentArrowStyle={{'borderRight': '7px solid #F8F5F0'}}
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
           >
             <h4> My Spring Semester Classes: </h4>
             Data Structures <br/>
@@ -125,8 +127,8 @@ function Timeline() {
           <VerticalTimelineElement
             date='Fall 2019'
             icon={<img className='icon' src={require('../assets/images/uga_logo.jpg')}/>}
-            contentStyle={{'backgroundColor': '#F8F5F0'}}
-            contentArrowStyle={{'borderRight': '7px solid #F8F5F0'}}
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
           >
             <h4> My Fall Semester Classes: </h4>
             Systems Programming <br/>
@@ -137,18 +139,18 @@ function Timeline() {
           <VerticalTimelineElement
             date='Summer 2019'
             icon={<img className='icon' src={require('../assets/images/ksu_logo.png')}/>}
-            contentStyle={{'backgroundColor': '#F8F5F0'}}
-            contentArrowStyle={{'borderRight': '7px solid #F8F5F0'}}
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
           >
             Took a class as a transient student at Kennesaw State University!
             <h4> My Summer Semester Classes: </h4>
-            English Compisition II <br/>
+            English Composition II <br/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             date='Spring 2019'
             icon={<img className='icon' src={require('../assets/images/uga_logo.jpg')}/>}
-            contentStyle={{'backgroundColor': '#F8F5F0'}}
-            contentArrowStyle={{'borderRight': '7px solid #F8F5F0'}}
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
           >
             <h4> My Spring Semester Classes: </h4>
             Honors Biology <br/>
@@ -159,8 +161,8 @@ function Timeline() {
           <VerticalTimelineElement
             date='Fall 2018'
             icon={<img className='icon' src={require('../assets/images/uga_logo.jpg')}/>}
-            contentStyle={{'backgroundColor': '#F8F5F0'}}
-            contentArrowStyle={{'borderRight': '7px solid #F8F5F0'}}
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
           >
             <h4> College! </h4>
             Started my education at The University of Georgia... Go Dawgs!
