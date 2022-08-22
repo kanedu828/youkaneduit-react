@@ -18,14 +18,31 @@ function Timeline() {
           lineColor='#0B3948'
         >
           <VerticalTimelineElement
+            date='Fall 2022'
+            icon={<img className='icon' src={require('../assets/images/gt_logo.jpg')}/>}
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
+          >
+            <h4> My Fall Semester Classes: </h4>
+            Machine Learning
+            <br/>
+            Data Visualization
+            <br/>
+            Video Game Design
+            <br/>
+            Foundation of Health <br/>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
             date='Summer 2022'
             icon={<img className='icon' src={require('../assets/images/doordash_logo.png')}/>}
             contentStyle={contentStyle}
             contentArrowStyle={contentArrowStyle}
           >
             <h4> My Summer Internship: </h4>
-            I will be interning at Doordash in Seattle (it's actually remote 😔)!
-            I'll be working with the Storefront team, where Doordash powers restaurant online ordering software.
+            I interned at Doordash's Storefront team. I had a very positive experience, and working with my mentor and team has been pleasant.
+            I did full stack enginnering working with Kotlin, React, grpc, GraphQL, and Typescript. My project involved allowing storefront merchants
+            to easily change loyalty program infromation through an admin portal. The loyalty infromation is then queried from the frontend with graphql.
+            An example of this loyalty information could be seen in the following link: https://order.online/store/pines-adak-544025/?hideModal=true&pickup=true
             <br/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
