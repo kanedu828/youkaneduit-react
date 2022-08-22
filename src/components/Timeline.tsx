@@ -82,8 +82,9 @@ function Timeline() {
             contentArrowStyle={contentArrowStyle}
           >
             <h4> My Summer Internship: </h4>
-            Interned at Amazon with the AWS Cordite team! Battled with a lot of the internal tooling
-             and learning the AWS suite, but I ultimately learned a lot. <br/>
+            Interned at Amazon with the AWS Cordite team! I worked with a lot of internal tooling
+             and learning the AWS suite. My project involved processing logs from AWS Cloudwatch by using
+             AWS lambda. <br/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             date='Spring 2021'
@@ -125,7 +126,8 @@ function Timeline() {
             <h4> My Summer Internship: </h4>
             My first internship was at Aflac. I first learned about the development pipeline here.
             Learning about how environments are setup, best practicies, and AGILE development has
-            been very important for me.
+            been very important for me. My work involved a lot of automated testing and validation for
+            insurance rates.
 
             <h4> My Summer Classes: </h4>
             Computing Ethics and Society <br/>
