@@ -11,10 +11,9 @@ function Home() {
       <div className='container-col fade-in'>
         <h1 className='large-header'>About Me</h1>
         <p className={'about-container content'}>
-          Hello! My name is Kane and I am a 4th year Computer Science major at
-          Georgia Tech. My concetrations are in intelligence and media.
-          I will be graduating in December 2022.
-          You can take a look at my coursework and internships in my timeline.
+          Hello! My name is Kane and I am a Georgia Tech graduate. I studied Computer Science, and 
+          concetrations were in intelligence and media. You can take a look at my coursework and work 
+          experiences in my timeline. I am currently located in Suwanee, Georgia.
         </p>
         <NavLink className='main-button' to='/timeline'> See My Timeline!  </NavLink>
       </div>

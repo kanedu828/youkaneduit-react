@@ -18,6 +18,23 @@ function Timeline() {
           lineColor='#0B3948'
         >
           <VerticalTimelineElement
+            date='Jan 2023'
+            icon={<img className='icon' src={require('../assets/images/doordash_logo.png')}/>}
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
+          >
+            Started working as a full time software engineer at DoorDash! It was very exciting to get a return offer after my internship
+            there. Excited to grow and learn more at DoorDash.
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date='Winter 2022'
+            icon={<img className='icon' src={require('../assets/images/gt_logo.jpg')}/>}
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
+          >
+            Graduated from Georgia Tech! Graduation always felt so far away!!
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
             date='Fall 2022'
             icon={<img className='icon' src={require('../assets/images/gt_logo.jpg')}/>}
             contentStyle={contentStyle}
