@@ -51,6 +51,7 @@
 .main-button:active {
   text-decoration: none;
   color: inherit;
+  background-color: #cacce0;
 }
 
 .main-button:visited {
