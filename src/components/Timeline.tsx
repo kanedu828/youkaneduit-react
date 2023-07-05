@@ -200,7 +200,7 @@ function Timeline() {
             contentStyle={contentStyle}
             contentArrowStyle={contentArrowStyle}
           >
-            <h4> College! </h4>
+            College! <br/>
             Started my education at The University of Georgia... Go Dawgs!
             <h4> My Fall Semester Classes: </h4>
             Astronomy of the Solar System <br/>
