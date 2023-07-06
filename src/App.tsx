@@ -1,27 +1,32 @@
-import React from 'react';
-import  { HashRouter, Routes, Route } from "react-router-dom";
+import React from "react";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
-import Timeline from './components/Timeline';
-import Home from './components/Home';
-import NavBar from './components/NavBar';
-import Resume from './components/Resume';
+import Timeline from "./components/Timeline";
+import Home from "./components/Home";
+import { NavBar } from "./components/NavBar";
 
-import './styles/mainpage.css';
-import { GuitarTools } from './components/GuitarTools/GuitarTools';
+import { GuitarTools } from "./components/GuitarTools/GuitarTools";
+import { Container, MantineProvider } from "@mantine/core";
 
 function App() {
   return (
-    <div>
+    <MantineProvider
+      theme={{
+        fontFamily: "Merriweather",
+        headings: {
+          fontFamily: "Merriweather",
+        },
+      }}
+    >
       <HashRouter>
-        <NavBar/>
+        <NavBar />
         <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/timeline' element={<Timeline/>}/>
-          <Route path='/guitar-tools' element={<GuitarTools/>}/>
-          // <Route path='/Resume' element={<Resume/>}/>
+          <Route path="/" element={<Home />} />
+          <Route path="/timeline" element={<Timeline />} />
+          <Route path="/guitar-tools" element={<GuitarTools />} />
         </Routes>
       </HashRouter>
-    </div>
+    </MantineProvider>
   );
 }
 

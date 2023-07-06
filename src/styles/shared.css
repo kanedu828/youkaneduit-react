@@ -47,38 +47,33 @@
   color: #416165;
 }
 
-.fade-in{
+.fade-in {
   animation: fadein 2s;
 }
 
-@keyframes fadein
-{
-
-  from{ opacity: 0; }
-  to { opacity: 1; }
-
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-@media screen and (min-width:481px) {
-
+@media screen and (min-width: 481px) {
   .large-header {
     font-size: 4rem;
   }
-
 }
 
-@media screen and (min-width:769px) {
-
+@media screen and (min-width: 769px) {
   .large-header {
     font-size: 5rem;
   }
-
 }
 
-@media screen and (min-width:1025px) {
-
+@media screen and (min-width: 1025px) {
   .large-header {
     font-size: 6rem;
   }
-
 }

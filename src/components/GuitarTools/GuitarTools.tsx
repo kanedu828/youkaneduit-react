@@ -1,30 +1,33 @@
-import { Container, Stack, TextField } from "@mui/material";
-import { useState } from "react";
+import React from "react";
+import { Accordion, Container, Stack, Title } from "@mantine/core";
 import { ChordGenerator } from "./ChordGenerator";
+import { Metronome } from "./Metronome";
 
-interface GuitarToolsProps {
-
-}
-
-export const GuitarTools = (props: GuitarToolsProps) => {
-    document.title = 'Timeline';
-    return (
-        <Container maxWidth='xl'>
-            <Stack direction='column' justifyContent='center' alignItems='center' spacing={3}>
-                <h1 className='large-header'>Guitar Tools</h1>
-            </Stack>
-           
-           
-                <Stack padding={10} direction='column' justifyContent='center' alignItems='center' spacing={5}>
-                    
-                   
-            
-                    <ChordGenerator />
-                </Stack>
-            
-           
-            
-        </Container>
-    );
-
-}
+export const GuitarTools = () => {
+  document.title = "Guitar Tools";
+  return (
+    <Container size="xl">
+      <Stack justify="center" align="center" spacing={3}>
+        <Title size="6em">Guitar Tools</Title>
+        <Accordion multiple sx={{ minWidth: "70%" }}>
+          <Accordion.Item value="chordProgressionGenerator">
+            <Accordion.Control>
+              <Title order={3}>Chord Progression Generator</Title>
+            </Accordion.Control>
+            <Accordion.Panel>
+              <ChordGenerator />
+            </Accordion.Panel>
+          </Accordion.Item>
+          <Accordion.Item value="metronome">
+            <Accordion.Control>
+              <Title order={3}>Metronome</Title>
+            </Accordion.Control>
+            <Accordion.Panel>
+              <Metronome />
+            </Accordion.Panel>
+          </Accordion.Item>
+        </Accordion>
+      </Stack>
+    </Container>
+  );
+};

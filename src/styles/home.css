@@ -27,7 +27,7 @@
   margin: auto;
   margin-bottom: 50px;
   font-size: 1.5em;
-  background-color: #D9DBF1;
+  background-color: #d9dbf1;
   border: none;
   border-radius: 40px;
   padding: 15px 30px;
@@ -41,7 +41,7 @@
 
 .main-button:hover,
 .main-button:focus {
-  background-color: #E2E3F1;
+  background-color: #e2e3f1;
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
@@ -59,23 +59,19 @@
   color: inherit;
 }
 
-@media screen and (min-width:481px) {
-
+@media screen and (min-width: 481px) {
   .about-header {
     font-size: 4rem;
   }
-
 }
 
-@media screen and (min-width:769px) {
-
+@media screen and (min-width: 769px) {
   .about-header {
     font-size: 5rem;
   }
-
 }
 
-@media screen and (min-width:1025px) {
+@media screen and (min-width: 1025px) {
   .about-image {
     width: 30%;
     height: 30%;
@@ -96,5 +92,4 @@
   .about-header {
     font-size: 6rem;
   }
-
 }

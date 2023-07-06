@@ -1,8 +1,12 @@
 interface ButtonProps {
-    text: string;
-    onClick: any;
+  text: string;
+  onClick: any;
 }
 
 export const Button = (props: ButtonProps) => {
-    return <button className='main-button' onClick={props.onClick}>{props.text}</button>
-}
+  return (
+    <button className="main-button" onClick={props.onClick}>
+      {props.text}
+    </button>
+  );
+};
